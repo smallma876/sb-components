@@ -15,7 +15,7 @@ export interface MyLabelProps {
   backgroundColor?: string;
 }
 
-const MyLabel = ({
+export const MyLabel = ({
   allCaps,
   label = "No Label",
   size = "normal",
@@ -33,4 +33,3 @@ const MyLabel = ({
   );
 };
 
-export default MyLabel;
